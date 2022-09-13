@@ -235,33 +235,6 @@ class OfferPopup {
     this.setCookie();
   }
 }
-/*
-const offerLandscape = new OfferPopup({
-  title: 'Ландшафтный дизайн в подарок!',
-  text: [
-    'Только до 31 августа клубный поселок «Репинское» дарит профессиональный ландшафтный проект при приобретении любого участка. Мы создадим красоту вокруг вашего дома!',
-    'Осталось всего 12 свободных участков!',
-  ],
-  imageSrc: '/img/popup-offer/offer1.jpg',
-  buttonText: 'Заказать звонок',
-  timeToAppear: 50,
-  cookieName: 'offerLandscape-popup',
-  theme: '«Ландшафтный дизайн в подарок!»',
-});
-
-const offerGuestsHouse = new OfferPopup({
-  title: 'Построим гостевой дом со СПА в подарок!',
-  text: [
-    'Покупателям участков от 40 соток мы сделаем уникальный подарок – построим «под ключ» гостевой дом площадью 120 м2 со СПА и террасой совершенно бесплатно.',
-    'Спешите! Предложение ограниченно!',
-  ],
-  imageSrc: '/img/popup-offer/offer2.jpg',
-  buttonText: 'Узнать детали акции',
-  timeToAppear: 70,
-  cookieName: 'offerGuestsHouse-popup',
-  theme: '«Построим гостевой дом со СПА в подарок!»',
-});
-*/
 (function choosePopup() {
   if(!document.cookie.includes(offerLandscape.cookieName)) {
     offerLandscape.addPopupToDOM();

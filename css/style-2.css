@@ -1,0 +1,114 @@
+.textblock_brown{
+	background: #C58970;
+}
+.header__menu a{
+	color: #343434;
+}
+.header__menu a:hover,
+.header__call,
+.footer__subsection:hover,
+.footer a:hover{
+	color: #86B59D!important;
+}
+.button_aqua{
+	background: #86B59D;
+}
+.linetitle.brown span,
+.textblock__linkarrow.brown span,
+.maincollection .section__line_first .white{
+	color: #343434;
+}
+.linetitle.brown span,
+.textblock__linkarrow.brown span,
+.maincollection .section__line_first .linetitle.white span{
+  border-color: #343434;
+}
+.textblock_aqua{
+	background: #fff;
+	color: #343434;
+}
+.infrastructuremain .section__part{
+	background: #86B59D;
+}
+.infrastructuremain .linetitle.aqua span{
+	color: #fff;
+}
+.infrastructuremain .linetitle.aqua span{
+	border-color: #fff;
+}
+.cottage_title{
+	text-align: center;
+	padding-bottom: 80px;
+}
+.cottage{
+	height: 50vh;
+}
+.cottage .textblock{
+	color: #fff;
+	background: #86B59D;
+}
+.infrastructuremain__layer,
+.cookiemessage{
+	background: #86B59D;
+}
+.cottage-2 .infrastructuremain__layer,
+.cottage-2 .textblock{
+	background: #A9C9B9;
+}
+.cottage-2 .section__2part{
+	background: #86B59D;
+	color: #fff;
+}
+.cottage_content{
+	padding: 5vw;
+}
+.cottage_content .linetitle.brown span{
+	color: #fff;
+	border-color: #fff;
+}
+.cottage .but-wrap{
+	display: flex;
+	width: 100%;
+	height: 100%;
+	justify-content: space-between;
+	align-items: center;
+}
+.cottage .but{
+	position: relative;
+	transition: 0.3s;
+	width: 240px;
+	height: 80px;
+	padding: 20px;
+	text-align: center;
+	color: #fff;
+	background: #C58970;
+	border: 1px solid #DBAD9A;
+	box-shadow: 0px 4px 0px #A7745F, 0px 25px 40px -15px #C58970, inset 0px -5px 15px rgba(255, 255, 255, 0.35);
+}
+.cottage .but:hover{
+	box-shadow: 0px 4px 3px #A7745F, 0px 25px 40px -5px #C58970, inset 0px -5px 15px rgba(255, 255, 255, 0.35);
+}
+.cottage .but::before{
+	content: '';
+	position: absolute;
+	background: url(../img/arrow-brown.png) center no-repeat;
+	background-size: 100% 100%;
+	width: 170px;
+	height: 34px;
+	top: -60px;
+	left: 0;
+}
+.cottage .textblock__in{
+	height: 100%;
+}
+.footer__infosmall{
+	text-align: left;
+}
+.header{
+	padding-top: 0;
+}
+@media (min-width: 768px){
+	.cottage .section__2part {
+    display: block!important;
+	}
+}
