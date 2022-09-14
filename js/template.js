@@ -527,6 +527,12 @@ $(document).ready(function(){
     }
 
     windowScroll = $(window).scrollTop();
+    if($('.cottage_card').length){
+      if(($('.cottage_card').offset().top - windowH) < windowScroll){
+        console.log(555)
+        $('.cottage_card').addClass('anim')
+      }
+    }
     if($('.mapblock').length){
       if(($('.mapblock').offset().top - windowH) < windowScroll){
         var y = (windowScroll - $('.mapblock').offset().top)/windowH;
@@ -740,8 +746,8 @@ function movepic(leftInf){
     left = $('.infrastructuremain__img').width() - $('.infrastructuremain__img img').width();
   }
   $('.infrastructuremain__img img').animate({
-    'left': left+'px'
-  },25000);
+    'right': left+'px'
+  },10000);
   return left;
 }
 function counterSlidesInit(event){
